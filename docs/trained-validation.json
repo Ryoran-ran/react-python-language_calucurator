@@ -1,0 +1,71 @@
+{
+  "license": "CC0-1.0",
+  "creator": "Kotoba Lab contributors",
+  "corpus_sha256": "883d44ff121dc43a0f6daa7509b63dd687f388ed920ffc6d557a9e4904401899",
+  "note": "Gensimで実際に学習した小型モデル。第三者の事前学習モデルではなく、言語品質や大規模性能の検証には使えません。",
+  "settings": {
+    "vector_size": 32,
+    "min_count": 1,
+    "window": 4,
+    "workers": 1,
+    "seed": 42,
+    "epochs": 400,
+    "sg": 1
+  },
+  "checks": {
+    "text": {
+      "model_sha256": "38f492a0011e4596b074eb940d576b292661910030143a89b8a701509ae2edc7",
+      "vocabulary_size": 78,
+      "dimensions": 32,
+      "checks": {
+        "inspect": 200,
+        "rank": 200,
+        "distance": 200,
+        "arithmetic": 200,
+        "projection": 200,
+        "search": {
+          "path": [
+            "猫",
+            "遊ぶ",
+            "は",
+            "中",
+            "育てる",
+            "宇宙"
+          ],
+          "total_cost": 1.502287617664856,
+          "k": 10,
+          "optimal_within_fixed_graph": true
+        },
+        "edit": 1,
+        "export_zip_bytes": 69037
+      }
+    },
+    "binary": {
+      "model_sha256": "de8973c3f217bd33641423d809badf531f5c21d4f552e8c640b2a8cd56055e78",
+      "vocabulary_size": 78,
+      "dimensions": 32,
+      "checks": {
+        "inspect": 200,
+        "rank": 200,
+        "distance": 200,
+        "arithmetic": 200,
+        "projection": 200,
+        "search": {
+          "path": [
+            "猫",
+            "遊ぶ",
+            "は",
+            "中",
+            "育てる",
+            "宇宙"
+          ],
+          "total_cost": 1.502287617664856,
+          "k": 10,
+          "optimal_within_fixed_graph": true
+        },
+        "edit": 1,
+        "export_zip_bytes": 69012
+      }
+    }
+  }
+}

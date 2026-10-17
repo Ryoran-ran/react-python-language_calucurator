@@ -1,0 +1,13 @@
+fastapi==0.115.12
+uvicorn==0.34.2
+gensim==4.4.0
+numpy==2.2.6
+scipy==1.15.3
+scikit-learn==1.6.1
+python-multipart==0.0.20
+regex==2024.11.6
+httpx==0.28.1
+pytest==8.3.5
+hypothesis==6.131.9
+ruff==0.11.10
+mypy==1.15.0

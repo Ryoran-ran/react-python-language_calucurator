@@ -1,0 +1,15 @@
+.runtime/
+.venv/
+data/
+node_modules/
+dist/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.hypothesis/
+*.tsbuildinfo
+test-results/
+playwright-report/
+*.log
+.env

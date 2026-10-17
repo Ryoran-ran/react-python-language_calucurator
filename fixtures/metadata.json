@@ -1,0 +1,13 @@
+{
+  "display_name": "日本語デモ · 人工ベクトル",
+  "creator": "言葉の実験室",
+  "license_spdx": "CC0-1.0",
+  "license_text_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source_url": null,
+  "training_corpus": "なし。動作検証用に手作りした人工ベクトル。学習済みモデルではありません。",
+  "redistribution_allowed": true,
+  "language": "ja",
+  "normalization_policy": "none",
+  "tokenization": "手動定義",
+  "training_parameters": {}
+}

@@ -1,0 +1,5 @@
+The synthetic vectors in tiny_vectors.txt, the original sentences in
+training_corpus.txt, and their metadata are dedicated to the
+public domain under CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/
+They are project-original test data, not trained embeddings or extracted third-party weights.

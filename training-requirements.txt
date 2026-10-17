@@ -1,0 +1,3 @@
+# Optional dependencies used only by scripts/wikipedia_word2vec.py.
+SudachiPy==0.7.0
+sudachidict-core==20261015

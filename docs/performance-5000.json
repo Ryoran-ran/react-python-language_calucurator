@@ -1,0 +1,17 @@
+{
+  "nodes": 5000,
+  "edges": 4999,
+  "platform": "win32",
+  "cpu": "Intel(R) Core(TM) i7-9700F CPU @ 3.00GHz",
+  "ram_gb": 15.942920684814453,
+  "render_ms": 2142.199999999255,
+  "frame_p95_ms": 100.09999999776483,
+  "interaction_ms": [
+    52,
+    49,
+    49,
+    49,
+    46
+  ],
+  "note": "Development-only synthetic fixture; Chromium headless; pan, zoom and controls exercised."
+}

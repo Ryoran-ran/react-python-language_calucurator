@@ -1,0 +1,28 @@
+{
+  "system": "Windows-11-10.0.26300-SP0",
+  "cpu": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+  "python": "3.12.10",
+  "model_sha256": "0873c61a47690930ac711b1b99bdd635e76160f866ad9d17f0184ce17b2ab293",
+  "vocabulary_size": 37,
+  "dimensions": 8,
+  "mode": "exact",
+  "source": "project-original synthetic fixture; no real model benchmark",
+  "measurements": {
+    "health": {
+      "p50_ms": 1.153,
+      "p95_ms": 1.422
+    },
+    "suggest": {
+      "p50_ms": 1.268,
+      "p95_ms": 1.467
+    },
+    "inspect": {
+      "p50_ms": 1.79,
+      "p95_ms": 2.188
+    },
+    "cached_rank_20": {
+      "p50_ms": 2.268,
+      "p95_ms": 2.704
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "system": "Windows-11-10.0.26300-SP0",
+  "cpu": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+  "vocabulary_size": 10000,
+  "dimensions": 32,
+  "mode": "exact",
+  "model_sha256": "b6bcd885c85fb681d667a5bbbac68128bd4231864f66a5e7c5e2283d4151d25a",
+  "first_event_ms": 7.870399999774236,
+  "cancellation_ms": 85.48330000030546,
+  "expansions": 756,
+  "result": "CANCELLED",
+  "license": "CC0-1.0",
+  "note": "Original synthetic smooth ring; one second of active search before cancellation; not a trained language model."
+}
